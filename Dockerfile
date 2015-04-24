@@ -36,3 +36,7 @@ MAINTAINER H4CK1THON <jh4ck4thon@gmail.com>
 # Allow access from outside to Database
 # -----------------------------------------------------------------------------
 #CMD ["mysql", "-e 'GRANT ALL PRIVILEGES ON docker.* TO 'root'@'%'; FLUSH PRIVILEGES;' "]
+
+ADD build.sh /
+
+CMD ["/build.sh"]
