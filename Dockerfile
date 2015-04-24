@@ -35,4 +35,4 @@ CMD ["mysql", "-e 'use docker; INSERT into docker_data VALUES (NULL, \"This is a
 # -----------------------------------------------------------------------------
 # Allow access from outside to Database
 # -----------------------------------------------------------------------------
-CMD ["mysql", "-e 'GRANT ALL PRIVILEGES ON docker.* TO 'root'@'%'; FLUSH PRIVILEGES;' "]
+#CMD ["mysql", "-e 'GRANT ALL PRIVILEGES ON docker.* TO 'root'@'%'; FLUSH PRIVILEGES;' "]
