@@ -20,7 +20,7 @@ MAINTAINER H4CK1THON <jh4ck4thon@gmail.com>
 # -----------------------------------------------------------------------------
 # Create Database
 # -----------------------------------------------------------------------------
-CMD ["mysql","-e 'create database docker' "]
+# CMD ["mysql","-e 'create database docker' "]
 
 # -----------------------------------------------------------------------------
 # Create Table in Database
