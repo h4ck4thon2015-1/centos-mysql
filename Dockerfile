@@ -30,7 +30,7 @@ CMD ["mysql", "-e 'use docker; CREATE TABLE docker_data (id INT(12) NOT NULL aut
 # -----------------------------------------------------------------------------
 # Insert Data in Database
 # -----------------------------------------------------------------------------
-CMD ["mysql", "-e 'use docker; INSERT into docker_data VALUES (NULL, \"This is a first insert\", NULL);' "]
+#CMD ["mysql", "-e 'use docker; INSERT into docker_data VALUES (NULL, \"This is a first insert\", NULL);' "]
 
 # -----------------------------------------------------------------------------
 # Allow access from outside to Database
