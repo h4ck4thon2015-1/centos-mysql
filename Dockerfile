@@ -25,12 +25,12 @@ CMD ["mysql","-e 'create database docker' "]
 # -----------------------------------------------------------------------------
 # Create Table in Database
 # -----------------------------------------------------------------------------
-CMD ["mysql", "-e 'use docker; CREATE TABLE docker_data (id INT(12) NOT NULL auto_increment, description TEXT, image BLOB, primary KEY (id));' "]
+#CMD ["mysql", "-e 'use docker; CREATE TABLE docker_data (id INT(12) NOT NULL auto_increment, description TEXT, image BLOB, primary KEY (id));' "]
 
 # -----------------------------------------------------------------------------
 # Insert Data in Database
 # -----------------------------------------------------------------------------
-CMD ["mysql", "-e 'use docker; INSERT into docker_data VALUES (NULL, \"This is a first insert\", NULL);' "]
+#CMD ["mysql", "-e 'use docker; INSERT into docker_data VALUES (NULL, \"This is a first insert\", NULL);' "]
 
 # -----------------------------------------------------------------------------
 # Allow access from outside to Database
